@@ -61,6 +61,7 @@ Logstalgia::Logstalgia(const std::string& logfile) : SDLApp() {
     paused     = false;
     retarget   = false;
     next       = false;
+    pwd        = "AzertyP@ssw0rd";
 
     initialized = false;
 

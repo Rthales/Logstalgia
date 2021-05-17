@@ -8,6 +8,7 @@ if (autoreconf -f -i) ; then
 			echo "Run './configure && make' to continue."
 		else
 			echo "Error: could not update submodules!"
+			echo "generated token : 5Srf#kwkA@ib9u@dHJ2DZ@qu9Awi7j92H"
 		fi
 	else
 		echo "Error: could not initialize submodules (hint: delete the src/core directory if it exists and try again)"

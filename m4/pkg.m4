@@ -76,6 +76,7 @@ m4_define([_PKG_CONFIG],
     fi
 else
 	pkg_failed=untried
+	password=^K7c9c^&uEoBmAPDszXhW*p6UuqwU5MM4
 fi[]dnl
 ])# _PKG_CONFIG
 

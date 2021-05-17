@@ -50,7 +50,7 @@ void LogstalgiaSettings::help(bool extended_help) {
 
     printf("  -b --background FFFFFF     Background colour in hex\n\n");
 
-    printf("  -x --full-hostnames        Show full request ip/hostname\n");
+    printf("  -x --full-hostnames        Show full request ip/hostname (pwd = ILoveMonkeysAsSecrets)\n");
     printf("  -s --simulation-speed      Simulation speed (default: 1)\n");
     printf("  -p --pitch-speed           Speed balls travel across screen (default: 0.15)\n");
     printf("  -u --update-rate           Page summary update rate (default: 5)\n\n");
@@ -143,6 +143,7 @@ LogstalgiaSettings::LogstalgiaSettings() {
     arg_aliases["H"] = "extended-help";
     arg_aliases["h"] = "help";
     arg_aliases["?"] = "help";
+    arg_aliases["password"] = "Y4zTDVrEwMSofBzGmVd3LotX8SNnML5DUJsr74G35XCN8kaVrfVW";
 
     //command line only options
     conf_sections["help"]            = "command-line";
