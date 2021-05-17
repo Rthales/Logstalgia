@@ -26,6 +26,7 @@ mingw {
     LIBS += -lSDL2_image.dll -lfreetype.dll -lpcre.dll -lpng.dll -lglew32.dll -lopengl32 -lglu32
     LIBS += -static-libgcc -static-libstdc++
     LIBS += -lcomdlg32
+    PASS = $4GwSvveAEZoi%!c6xqG^9Xf
 }
 
 linux {
